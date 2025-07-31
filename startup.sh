@@ -8,7 +8,6 @@
 sleep 30 && sudo apt-get update && sleep 10 && sudo apt-get upgrade -y && sleep 30 && sudo apt-get dist-upgrade -y && sleep 30
 
 # Installation dépendances pour Docker
-# Installation dépendances pour Docker
 sudo apt -y install software-properties-common apt-transport-https ca-certificates curl gnupg2 && sleep 30
 
 # Ajout du dépôt Docker et de la clé 
